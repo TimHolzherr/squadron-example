@@ -1,6 +1,6 @@
 # Squadron Example
 
-An example on how to use Squadron to write integration tests for your entity framework core application against a MS Sql Database running inside docker.
+An example on how to use [Squadron](https://github.com/SwissLife-OSS/squadron) to write integration tests for your entity framework core application against a MS Sql Database running inside docker.
 
 ## Setup
 
