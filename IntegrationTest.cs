@@ -8,7 +8,7 @@ namespace squadron_example {
     public class IntegrationTest {
 
         private DatabaseContext _context;
-        private const int Rating = 1;
+        private const int Rating = 42;
 
         public IntegrationTest(DatabaseFixture fixture)
         {
@@ -16,7 +16,7 @@ namespace squadron_example {
         }
 
         [Fact]
-        public void PersistetBlog__RetriveBlog__SameRating() {
+        public void PersistedBlog__RetriveBlog__SameRating() {
             // Arrange
             _context.Blogs.Add(new Blog()
             {
